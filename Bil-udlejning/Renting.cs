@@ -3,7 +3,7 @@
     public class Renting
     {
         public int Id { get; set; }
-        public Car Car_id { get; set; }
+        public Car Car { get; set; }
         public bool GPS { get; set; }
         public bool Baby_chair { get; set; }
         public DateTime start_time { get; set; }
